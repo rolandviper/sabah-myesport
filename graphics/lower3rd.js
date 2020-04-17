@@ -28,13 +28,13 @@ Tabletop.init(options);
 nodecg.listenFor('playl3', () => {
 	Tabletop.init(options);
 
-	tl.from([ nameplateEl ], 1, { width: '50%' });
-	tl.to([ nameplateEl ], 1, { opacity: 1 }, '-=1');
+	tl.to([ nameplateEl ], 1, { opacity: 1 });
+	tl.from([ nameplateEl ], 1, { width: 0 }, '-=1');
 
-	tl.to([ nameplateEl ], 1, { width: '50%' }, '+= 5');
-	tl.to([ nameplateEl ], 1, { opacity: 0 }, '-=1');
+	tl.to([ nameplateEl ], 1, { opacity: 0 }, '+=5');
+	tl.to([ nameplateEl ], 1, { width: 0 }, '-=1');
 
 	tl.call(() => {});
 
-	tl.set([ nameplateEl ], { width: '' });
+	tl.set([ nameplateEl ], { opacity: '', width: '' });
 });
