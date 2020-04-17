@@ -8,22 +8,14 @@
 		"email": "56328676+rolandviper@users.noreply.github.com",
 		"url": ""
 	},
-	"files": [
-		"dashboard",
-		"graphics",
-		"extension.js",
-		"extension"
-	],
-	"keywords": [
-		"",
-		"nodecg-bundle"
-	],
+	"files": [ "dashboard", "graphics", "extension.js", "extension" ],
+	"keywords": [ "", "nodecg-bundle" ],
 	"nodecg": {
 		"compatibleRange": "^1.1.1",
 		"dashboardPanels": [
 			{
 				"name": "panel",
-				"title": "Panel",
+				"title": "SabahInput",
 				"width": 2,
 				"file": "panel.html",
 				"headerColor": "#525F78"
@@ -32,6 +24,16 @@
 		"graphics": [
 			{
 				"file": "lower3rd.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "caster.html",
+				"width": 1920,
+				"height": 1080
+			},
+			{
+				"file": "comingup.html",
 				"width": 1920,
 				"height": 1080
 			}

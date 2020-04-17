@@ -1,0 +1,42 @@
+body {
+	font-family: Staatliches, sans-serif;
+	background: red;
+	/* background-image: url(./img/MLBB\ BACKGROUND.jpg); */
+}
+
+#nameplate {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+
+	display: flex;
+	flex-direction: column;
+
+	overflow: hidden;
+
+	opacity: 0;
+}
+
+.text {
+	background: #e1b41b;
+	width: fit-content;
+	padding: 0 8px 0 15px;
+
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#title {
+	font-size: 8vh;
+	margin-bottom: 2px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+#sub {
+	font-size: 4vh;
+	letter-spacing: 4px;
+	background-color: #090909;
+	color: white;
+	border: 1px solid #e1b41b;
+}
