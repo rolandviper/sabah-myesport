@@ -1,13 +1,13 @@
 body {
 	font-family: Staatliches, sans-serif;
-	background: red;
+	background: transparent;
 	/* background-image: url(./img/MLBB\ BACKGROUND.jpg); */
 }
 
 #nameplate {
 	position: absolute;
 	top: 70%;
-	left: 20%;
+	left: 10%;
 
 	display: flex;
 	flex-direction: column;
@@ -27,7 +27,7 @@ body {
 }
 
 #title {
-	font-size: 10vh;
+	font-size: 7vh;
 	margin-bottom: 2px;
 	letter-spacing: 7px;
 	font-weight: bold;

@@ -28,7 +28,7 @@ Tabletop.init(options);
 nodecg.listenFor('playcaster', () => {
 	Tabletop.init(options);
 
-	tl.to([ nameplateEl ], 1, { opacity: 1 });
+	tl.to([ nameplateEl ], 1, { opacity: 1 }, '+=1');
 	tl.from([ nameplateEl ], 1, { width: 0 }, '-=1');
 
 	tl.to([ nameplateEl ], 1, { opacity: 0 }, '+=5');

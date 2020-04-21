@@ -1,2 +1,3 @@
-#e1b41b yellowGOLD
+#e58009 orange
+#e1b41b; darkyellow
 #090909 black
