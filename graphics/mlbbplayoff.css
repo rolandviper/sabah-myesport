@@ -1,0 +1,118 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+}
+
+h3 {
+	text-align: center;
+	background-color: #e1b41b;
+
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+
+	letter-spacing: 3px;
+}
+
+h4 {
+	padding-top: 0.2vh;
+	padding-bottom: 0.2vh;
+
+	letter-spacing: 4px;
+}
+
+.container {
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #09090988;
+	padding-bottom: 1vh;
+
+	opacity: 0;
+}
+.brackets {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: white;
+
+	justify-content: center;
+
+	letter-spacing: 2px;
+}
+
+.round32 {
+	display: flex;
+	flex-direction: column;
+
+	margin-right: 2vw;
+}
+
+.round16 {
+	display: flex;
+	flex-direction: column;
+
+	margin-right: 2vw;
+
+	margin-top: 2vh;
+}
+
+.round16 span.bottom {
+	padding-bottom: 2px;
+	margin-bottom: 4vh;
+}
+
+.round8 {
+	display: flex;
+	flex-direction: column;
+
+	margin-right: 1vw;
+}
+
+.round8 span.bottom {
+	margin-bottom: 7vh;
+}
+
+.semifinals {
+	display: flex;
+	flex-direction: column;
+
+	margin-right: 2vw;
+	margin-top: 5vh;
+}
+
+.semifinals span.bottom {
+	margin-bottom: 5vh;
+}
+
+.finals {
+	display: flex;
+	flex-direction: column;
+
+	margin-right: 1vw;
+
+	margin-top: 5%;
+}
+
+.finals span.bottom {
+	margin-bottom: 10vh;
+}
+
+.winner {
+	margin-bottom: 2%;
+}
+
+.top {
+	padding-top: 0.2vh;
+}
+
+.bottom {
+	border-top: 1px solid white;
+	width: 10vw;
+	padding-bottom: 0.5vh;
+}
+
+.top,
+.bottom {
+	margin-left: 0.2vw;
+	padding-left: 0.5vw;
+}

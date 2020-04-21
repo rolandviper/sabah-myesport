@@ -26,16 +26,12 @@ function stopMLBBgame() {
 	nodecg.sendMessage('stopMLBB');
 }
 
-function playMLBBpart() {
-	nodecg.sendMessage('playPart');
-}
-
-function playMLBB32() {
-	nodecg.sendMessage('play32');
-}
-
 function playPlayoff() {
 	nodecg.sendMessage('playPlayoff');
+}
+
+function stopPlayoff() {
+	nodecg.sendMessage('stopPlayoff');
 }
 
 function playpubg() {

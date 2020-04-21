@@ -46,6 +46,11 @@
 				"file": "mlbbingame.html",
 				"width": 1920,
 				"height": 1080
+			},
+			{
+				"file": "mlbbplayoff.html",
+				"width": 1920,
+				"height": 1080
 			}
 		]
 	},
