@@ -37,3 +37,11 @@ function playMLBB32() {
 function playPlayoff() {
 	nodecg.sendMessage('playPlayoff');
 }
+
+function playpubg() {
+	nodecg.sendMessage('playpubg');
+}
+
+function stoppubg() {
+	nodecg.sendMessage('stopppubg');
+}

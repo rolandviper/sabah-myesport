@@ -1,0 +1,92 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+	/* background-image: url('./img/MLBB\ IN\ GAME\ copy.png');
+    background-size: cover; */
+
+	margin: 0;
+	overflow: hidden;
+}
+
+#base {
+	opacity: 0;
+
+	background-image: url('./img/MLBB\ IN\ GAME\ copy.png');
+	background-size: cover;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+#nameplate {
+	position: relative;
+	padding-top: 4.8%;
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex: 1;
+}
+
+.text {
+	/* background: white; */
+	padding: 0 8px 0 15px;
+	margin: 0;
+
+	overflow: hidden;
+	white-space: nowrap;
+
+	font-size: 3vh;
+	letter-spacing: 4px;
+
+	color: white;
+}
+
+#left {
+	text-align: end;
+	margin-right: 5vw;
+}
+
+#right {
+	margin-left: 5vw;
+}
+
+#vs {
+	z-index: 2;
+	position: absolute;
+	top: 11%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+
+#middle {
+	font-size: 4vh;
+}
+
+#leftteam {
+	/* background-color: #ffba00; */
+}
+
+#rightteam {
+	/* background-color: #ffba00; */
+}
+
+#series {
+	font-size: 5vh;
+}
+
+#game {
+	font-size: 3vh;
+	background-color: #e1b41b;
+}
+
+#round {
+	font-size: 3vh;
+}

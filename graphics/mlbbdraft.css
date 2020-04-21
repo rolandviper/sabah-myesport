@@ -1,12 +1,12 @@
 body {
 	font-family: Staatliches, sans-serif !important;
-	background: red;
-	background-image: url('./img/MLBB\ DRAFTING.png');
-	background-size: cover;
+	background: transparent;
+	/* background-image: url('./img/MLBB\ DRAFTING.png');
+	background-size: cover; */
 }
 
 #base {
-	opacity: 1;
+	opacity: 0;
 }
 
 #nameplate {
@@ -45,7 +45,7 @@ body {
 #vs {
 	z-index: 2;
 	position: absolute;
-	top: 10%;
+	top: 11%;
 	left: 50%;
 
 	transform: translate(-50%, -50%);
@@ -78,5 +78,5 @@ body {
 }
 
 #round {
-	font-size: 4vh;
+	font-size: 3vh;
 }
