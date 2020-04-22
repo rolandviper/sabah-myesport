@@ -31,7 +31,7 @@ nodecg.listenFor('playcoming', () => {
 	tl.to([ nameplateEl ], 1, { opacity: 1 }, '+=1');
 	tl.from([ nameplateEl ], 1, { width: 0 }, '-=1');
 
-	tl.to([ nameplateEl ], 1, { opacity: 0 }, '+=5');
+	tl.to([ nameplateEl ], 1, { opacity: 0 }, '+=10');
 	tl.to([ nameplateEl ], 1, { width: 0 }, '-=1');
 
 	tl.call(() => {});
