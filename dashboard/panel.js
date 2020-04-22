@@ -34,12 +34,12 @@ function stopPlayoff() {
 	nodecg.sendMessage('stopPlayoff');
 }
 
-function playpubg() {
-	nodecg.sendMessage('playpubg');
+function playPUBG() {
+	nodecg.sendMessage('playPUBG');
 }
 
-function stoppubg() {
-	nodecg.sendMessage('stopppubg');
+function stopPUBG() {
+	nodecg.sendMessage('stopPUBG');
 }
 
 function playgrA() {
