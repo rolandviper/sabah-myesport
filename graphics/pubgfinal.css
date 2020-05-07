@@ -1,0 +1,98 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background-color: transparent;
+
+	margin: 0;
+	overflow: hidden;
+}
+
+#base {
+	opacity: 0;
+
+	background-image: url('./img/Leaderboard-2.jpg');
+	background-size: cover;
+
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.position {
+}
+
+.title {
+	color: white;
+	font-size: 8vh;
+
+	padding: 5vh;
+	margin-left: 7vw;
+}
+
+.teams {
+	color: white;
+	font-size: 5vh;
+}
+
+.total {
+	color: white;
+	font-size: 5vh;
+}
+
+#left {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	width: 30%;
+
+	top: 19%;
+	left: 15%;
+}
+
+#right {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-between;
+	width: 30%;
+
+	top: 19%;
+	right: 14%;
+}
+.two {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+.three {
+	padding-top: 0.7vh;
+	padding-bottom: 1vh;
+}
+
+.four {
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+}
+
+.five {
+	padding-top: 1.2vh;
+	padding-bottom: 1.5vh;
+}
+
+.six {
+	padding-top: 1.2vh;
+	padding-bottom: 1vh;
+}
+
+.seven {
+	padding-top: 1.5vh;
+	padding-bottom: 1vh;
+}
+
+.eight {
+	padding-top: 1.2vh;
+}

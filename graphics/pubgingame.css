@@ -1,1 +1,50 @@
+body {
+	font-family: Staatliches, sans-serif !important;
+	background: transparent;
+	/* background-image: url('./img/MLBB\ IN\ GAME\ copy.png');
+    background-size: cover; */
 
+	margin: 0;
+	overflow: hidden;
+}
+
+#base {
+	opacity: 0;
+
+	background-image: url('./img/PUBGM\ In\ Game\ Overlay.png');
+	background-size: cover;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+#nameplate {
+	position: relative;
+
+	top: 82%;
+	left: 7%;
+	color: white;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+}
+
+#stage {
+	padding: 1%;
+
+	font-size: 2.5vh;
+}
+
+#round {
+	padding: 1%;
+	font-size: 2vh;
+}
+
+#map {
+	padding-left: 5%;
+	padding-right: 2%;
+
+	font-size: 3vh;
+}

@@ -56,6 +56,11 @@
 				"file": "pubgingame.html",
 				"width": 1920,
 				"height": 1080
+			},
+			{
+				"file": "pubgfinal.html",
+				"width": 1920,
+				"height": 1080
 			}
 		]
 	},

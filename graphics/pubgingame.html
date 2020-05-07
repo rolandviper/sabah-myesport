@@ -3,47 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="pubgingame.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Staatliches&display=swap" rel="stylesheet">
+    <title>PubgInGame</title>
 </head>
 <body>
     
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MLBBInGame</title>
-        <link rel="stylesheet" href="pubgingame.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway|Staatliches&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    </head>
-    <body>
-    
-        <div id="base">
-            <!-- <div id="nameplate">
-                <div id="left" class="col">
-                    <span class="text" id="leftteam"></span>
-                </div>
-                <div id="right" class="col">
-                    <span class="text" id="rightteam"></span>
-                </div>
-            </div> -->
-    
-            <div id="vs">
-                
-                <span id="series" class="text"></span>
-                <span id="game" class="text"></span>
-                <span id="round" class="text"></span>
-            </div>
-            
-            <!-- <div id="versus">   
-                <span id="middle" class="text">VERSUS</span>
-            </div> -->
-        
-    
-    
-            <script src="../node_modules/tabletop/src/tabletop.min.js"></script>
-    <script src="pubgingame.js" type="module"></script>
+    <div id="base">
 
+		<div id="nameplate">
+            <div class="top">
+                <div id="stage"></div>
+                <div id="round"></div>
+            </div>
+            <div class="bottom">
+                <span id="map"></span>
+            </div>
+        </div>
+       
+
+	</div>
+
+
+    <script src="../node_modules/tabletop/src/tabletop.min.js"></script>
+    <script src="pubgingame.js" type="module"></script>
 </body>
 </html>
