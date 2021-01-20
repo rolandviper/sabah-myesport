@@ -67,7 +67,7 @@
 	"repository": "https://github.com/nodecg/nodecg.git",
 	"license": "Apache-2.0",
 	"dependencies": {
-		"gsap": "^3.2.6",
+		"gsap": "^3.6.0",
 		"tabletop": "^1.6.2"
 	}
 }
